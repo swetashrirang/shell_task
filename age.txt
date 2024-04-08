@@ -1,0 +1,16 @@
+#! /bin/bash
+
+echo "enter your age"
+
+read age
+
+if [ $age -lt 13 ]
+  then
+  echo "Child"
+elif [ $age -bt 13 & 19 ]
+  then 
+  echo "teenager"
+elif [ $age -ge 20 ]
+  then
+  echo "adult"
+fi
