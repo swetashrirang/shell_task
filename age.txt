@@ -13,4 +13,7 @@ elif [ $age -bt 13 & 19 ]
 elif [ $age -ge 20 ]
   then
   echo "adult"
+elif [ $age -gt 60 ]
+  then
+  echo "oldage"
 fi
