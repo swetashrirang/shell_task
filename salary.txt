@@ -12,4 +12,7 @@ elif [ $a -gt 20000 && $a -le 40000 ];
 elif [ $a -gt 40000 ];
    then
       echo "10% tax"
+elif [ $a -eq 2000 ]
+   then
+   echo "2% tax"
 fi
